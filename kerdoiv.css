@@ -1,0 +1,98 @@
+.navbar {
+    overflow: hidden;
+    background-color: #4277bb;
+    position: fixed;
+    top: 20%;
+    width: 100%;                         
+}
+
+.navbar img {
+    height: 80px;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #4277bb;
+}
+
+.kezdetiszoveg {
+    text-align: center;
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+}
+
+.row img {
+    width: 70%;
+}
+
+.sor {
+    text-align: center;
+}
+
+.col-sm {
+    border-style: solid;
+    border-color: #4277bb;
+    background-color: white;
+    color: #4277bb;
+    border-radius: 5px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+
+.col-sm p {
+    text-decoration: none;
+}
+
+.col-sm p:hover {
+    transition: 250ms;
+    color: white;
+}
+
+.col-sm:hover {
+    transition: 250ms;
+    background-color: #4277bb;
+    color: white;
+}
+
+.borderek {
+    border-style: solid;
+    background-color: #ebf1f8;
+    border-color: #ededed;
+    padding: 3%;
+    border-radius: 1px;
+}
+
+.borderek {
+    margin-bottom: 5%;
+}
+
+.col p:hover {
+    color: white;
+}
+
+.radio-image {
+    cursor: pointer;
+}
+
+.col-sm {
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.col-sm.selected {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
+
+.radio-image {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.radio-image.selected {
+    transform: scale(1.1);
+}
